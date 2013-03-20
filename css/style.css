@@ -68,12 +68,12 @@ fieldset {
 	margin:auto;
 }
 #menu {
-	width:950px;
+	width:1100px;
 }
 #menu ul li {
 	float:left;
-	padding-left:20px;
-	padding-right:40px;
+	margin-left: -20px;
+	padding-right:50px;
 }
 #menu ul li.padd {
 	padding-left:180px;
@@ -97,7 +97,7 @@ fieldset {
 	width:172px;
 	height:178px;
 	display:block;
-	background:url("../images/logo.png") -0px -0px no-repeat;
+	background:url("../images/logov2.png") -0px -0px no-repeat;
 }
 /* === Home Section === */
 #home_top {
@@ -282,25 +282,25 @@ fieldset {
 	padding-bottom:60px;
 }
 #home_about_desc_left {
-	width:474px;
+	width:570px;
 	float:left;
 	border-right:2px solid #2f2f2f;
 	padding-right:4px;
 }
 #home_about_desc_left h3 {
 	color:#383838;
-	height:120px;
+	height:90px;
 	font-weight:normal;
-	font-size:120px;
+	font-size:90px;
 	font-family: 'BazarMedium';
 	border-right:2px solid #2f2f2f;
 }
 #home_about_desc_right {
-	width:455px;
+	width:355px;
 	float:right;
 }
 #home_about_desc_right p a {
-	width:72px;
+	width:272px;
 	height:72px;
 	float:left;
 	border:1px solid #444444;
@@ -1252,7 +1252,7 @@ div.home_blog_post_txt.full_width a {
 #blog_go_back a:hover {
 	width:44px;
 	height:67px;
-	background:url("../images/top_ribbons.png") -176px -9px no-repeat;
+	background:url("http://kirsches.us/3000Strong/images/top_ribbons.png") -176px -9px no-repeat;
 }
 .blog_comments {
 	width:650px;
@@ -1269,7 +1269,7 @@ div.home_blog_post_txt.full_width a {
 	font-size:11px;
 	padding-bottom:11px;
 	margin-bottom:6px;
-	background:url("../images/lines_bg.png") bottom center repeat-x;
+	background:url("http://kirsches.us/3000Strong/images/lines_bg.png") bottom center repeat-x;
 	text-transform:uppercase;
 }
 .blog_comments ul li {
@@ -1348,5 +1348,5 @@ div.home_blog_post_txt.full_width a {
 	border:0px;
 	margin-bottom:10px;
 	cursor:pointer;
-	background-image: url("../images/post_button.png");
+	background-image: url("http://kirsches.us/3000Strong/images/post_button.png");
 }
