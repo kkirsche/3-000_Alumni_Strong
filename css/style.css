@@ -1,4 +1,4 @@
-body {
+home_blog_desc_leftbody {
 	font-size:12px;
 	font-family:Arial, Helvetica, sans-serif;
 }
@@ -608,9 +608,9 @@ fieldset {
 }
 #home_blog_desc_left h3 {
 	color:#383838;
-	height:120px;
+	height:85px;
 	font-weight:normal;
-	font-size:120px;
+	font-size:85px;
 	font-family: 'BazarMedium';
 	border-right:2px solid #2f2f2f;
 }
@@ -806,8 +806,8 @@ div.home_blog_post_txt.full_width a {
 	padding-bottom:3px;
 }
 .home_blog_bottom_txt {
-	width:650px;
-	float:left;
+	width:905px;
+	margin: 0 auto;
 }
 .full_width {
 	width:650px!important;
@@ -1350,3 +1350,37 @@ div.home_blog_post_txt.full_width a {
 	cursor:pointer;
 	background-image: url("http://kirsches.us/3000Strong/images/post_button.png");
 }
+/* Image Grid
+----------------------------------*/
+	.details{ margin:15px 20px; }	
+	.details h4{ font:300 16px 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height:160%; letter-spacing:0.15em; color:#fff; text-shadow:1px 1px 0 rgb(0,0,0); }
+	.details p{ font:300 12px 'Lucida Grande', Tahoma, Verdana, sans-serif; color:#aaa; text-shadow:1px 1px 0 rgb(0,0,0);}
+	.details a{ text-decoration:none; }
+
+	.progress-label {
+    float: left;
+    margin-left: 50%;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+
+  #numberOfDonors h3 {
+  	color:#383838;
+	font-size:55px;
+	width:500px;
+	margin: 0 auto;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  .titleFont {
+  	color:#383838;
+	font-size:35px;
+	width:50%;
+	margin: 0 auto;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+	border-bottom: 2px solid;
+  }
