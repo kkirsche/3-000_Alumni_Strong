@@ -618,6 +618,14 @@ fieldset {
 	width:490px;
 	float:right;
 }
+#home_decades_desc_left {
+	width:300px;
+	float:left;
+}
+#home_decades_desc_right {
+	width:650px;
+	float:right;
+}
 #home_blog_desc_right p {
 	color:#383838;
 	font-size:14px;
@@ -631,6 +639,7 @@ fieldset {
 	width:650px;
 	float:left;
 }
+
 #home_blog_listing {
 	width:650px;
 }
@@ -1389,6 +1398,89 @@ div.home_blog_post_txt.full_width a {
 	font-size:35px;
 	width:100%;
 	margin: 0 auto;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListInactive {
+  	color:#383838;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListInactive:hover {
+  	color:#151515;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListActive {
+  	color:#660000;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListActive:hover {
+  	color:#a10000;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListInactiveButton {
+  	color:#dbdbdb;
+  	background: #383838;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListInactiveButton:hover {
+  	color:#dbdbdb;
+  	background: #151515;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListActiveButton {
+  	color:#dbdbdb;
+  	background: #660000;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+  }
+  #home_blog_archives ul li .decadeListActiveButton:hover {
+  	color:#a10000;
+	font-size:40px;
+	width:100%;
+	margin: 0 auto;
+	padding: 10px;
 	font-weight:normal;
 	text-align:center;
 	font-family: 'BazarMedium';
