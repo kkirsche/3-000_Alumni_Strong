@@ -1495,6 +1495,30 @@ div.home_blog_post_txt.full_width a {
 	padding-left: 15px;
 	border-left: 3px solid #151515;
 }
+#currentProgress h3 {
+	color:#383838;
+	float: left;
+	font-size:35px;
+	width:100%;
+	margin: 0 auto;
+	font-weight:normal;
+	text-align:center;
+	font-family: 'BazarMedium';
+}
+#progressbar {
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 75%;
+}
+.progressBarLegend {
+  	color:#383838;
+	font-size:35px;
+	width:100%;
+	margin: 0 auto;
+	font-weight:normal;
+	font-family: 'BazarMedium';
+  }
   /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup{font:14px Helvetica,Arial,sans-serif; width:100%;}
 #mc_embed_signup form {display:block; position:relative; text-align:center; padding:10px 0 10px 3%; width: 905px; margin: 0 auto;}
