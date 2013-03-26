@@ -1519,6 +1519,43 @@ div.home_blog_post_txt.full_width a {
 	font-weight:normal;
 	font-family: 'BazarMedium';
   }
+#make_a_gift_content {
+	width: 100%;
+}
+.makeAGiftButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c40000), color-stop(1, #660000) );
+	background:-moz-linear-gradient( center top, #c40000 5%, #660000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c40000', endColorstr='#660000');
+	background-color:#c40000;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #660000;
+	display:inline-block;
+	color:#d9d4c2;
+	font-family:georgia;
+	font-size:25px;
+	line-height: 35px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #b23e35;
+	text-align: center;
+}.makeAGiftButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #660000), color-stop(1, #c40000) );
+	background:-moz-linear-gradient( center top, #660000 5%, #c40000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#660000', endColorstr='#c40000');
+	background-color:#660000;
+	text-align: center;
+}.makeAGiftButton:active {
+	position:relative;
+	top:1px;
+	text-align: center;
+}
+
   /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup{font:14px Helvetica,Arial,sans-serif; width:100%;}
 #mc_embed_signup form {display:block; position:relative; text-align:center; padding:10px 0 10px 3%; width: 905px; margin: 0 auto;}
