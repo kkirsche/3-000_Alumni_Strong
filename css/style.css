@@ -1485,6 +1485,16 @@ div.home_blog_post_txt.full_width a {
 	text-align:center;
 	font-family: 'BazarMedium';
   }
+ .progressBarSpacingTop {
+ 	margin-top: 10px;
+ }
+.progressBarSpacing {
+	margin-top: 31px;
+}
+#decadeProgressContainer {
+	padding-left: 15px;
+	border-left: 3px solid #151515;
+}
   /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup{font:14px Helvetica,Arial,sans-serif; width:100%;}
 #mc_embed_signup form {display:block; position:relative; text-align:center; padding:10px 0 10px 3%; width: 905px; margin: 0 auto;}
