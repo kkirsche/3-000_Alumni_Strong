@@ -1,3 +1,8 @@
+body {
+	height: 100%;
+	position: relative;
+}
+
 home_blog_desc_leftbody {
 	font-size:12px;
 	font-family:Arial, Helvetica, sans-serif;

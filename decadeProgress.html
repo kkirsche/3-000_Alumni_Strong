@@ -20,9 +20,8 @@
 <script type="text/javascript" src="js/hover_animation.js"></script>
 <!--<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>-->
 <script type="text/javascript" src="js/jquery.mousewheel-3.1.1.pack.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="js/jquery.fancybox.js"></script>
-<script type="text/javascript" src="js/mosaic.1.0.1.min.js"></script>
+<script type="text/javascript" src="js/decadeSwitchingLogic.js"></script>
 </head>
 <body>
 <!-- BEGIN HEADER -->
@@ -59,15 +58,15 @@
 					<div id="home_decades_desc_left">
 						<div id="home_blog_archives" class="home_blog_sidebar">
 							<ul>
-								<li><a href="#" title="1930&ndash;1939"><h2 class="decadeListActiveButton">1930&ndash;1939</h2></a></li>
-								<li><a href="#" title="1940&ndash;1949"><h3 class="decadeListInactiveButton">1940&ndash;1949</h3></a></li>
-								<li><a href="#" title="1950&ndash;1959"><h3 class="decadeListInactiveButton">1950&ndash;1959</h3></a></li>
-								<li><a href="#" title="1960&ndash;1969"><h3 class="decadeListInactiveButton">1960&ndash;1969</h3></a></li>
-								<li><a href="#" title="1970&ndash;1979"><h3 class="decadeListInactiveButton">1970&ndash;1979</h3></a></li>
-								<li><a href="#" title="1980&ndash;1989"><h3 class="decadeListInactiveButton">1980&ndash;1989</h3></a></li>
-								<li><a href="#" title="1990&ndash;1999"><h3 class="decadeListInactiveButton">1990&ndash;1999</h3></a></li>
-								<li><a href="#" title="2000&ndash;2009"><h3 class="decadeListInactiveButton">2000&ndash;2009</h3></a></li>
-								<li><a href="#" title="2010&ndash;PRESENT"><h3 class="decadeListInactiveButton">2010&ndash;PRESENT</h3></a></li>
+								<li><a href="#" title="2000&ndash;2012" id="TwoThousandToTwentyTwelve"><h3 class="decadeListActiveButton">2000&ndash;2012</h3></a></li>
+								<li><a href="#" title="1990&ndash;1999" id="NineteenNinetyToNineteenNinetyNine"><h3 class="decadeListInactiveButton">1990&ndash;1999</h3></a></li>
+								<li><a href="#" title="1980&ndash;1989" id="NineteenEightyToNineteenEightyNine"><h3 class="decadeListInactiveButton">1980&ndash;1989</h3></a></li>
+								<li><a href="#" title="1970&ndash;1979" id="NineteenSeventyToNineteenSeventyNine"><h3 class="decadeListInactiveButton">1970&ndash;1979</h3></a></li>
+								<li><a href="#" title="1960&ndash;1969" id="NineteenSixtyToNineteenSixtyNine"><h3 class="decadeListInactiveButton">1960&ndash;1969</h3></a></li>
+								<li><a href="#" title="1950&ndash;1959" id="NineteenFiftyToNineteenFiftyNine"><h3 class="decadeListInactiveButton">1950&ndash;1959</h3></a></li>
+								<li><a href="#" title="1940&ndash;1949" id="NineteenFourtyToNineteenFourtyNine"><h3 class="decadeListInactiveButton">1940&ndash;1949</h3></a></li>
+								<li><a href="#" title="1934&ndash;1939" id="NineteenThirtyFourToNineteenThirtyNine"><h3 class="decadeListInactiveButton">1934&ndash;1939</h3></a></li>
+
 							</ul>
 							<div class="clr"></div>
 						</div><!-- end div #home_blog_archives -->
@@ -84,6 +83,9 @@
 							<div id="decade7" class="progressBarSpacing"></div>
 							<div id="decade8" class="progressBarSpacing"></div>
 							<div id="decade9" class="progressBarSpacing"></div>
+							<div id="decade10" class="progressBarSpacing"></div>
+							<div id="decade11" class="progressBarSpacing"></div>
+							<div id="decade12" class="progressBarSpacing"></div>
 						</div><!--end div #decadeProgressContainer-->
 					</div><!-- end div #home_decades_desc_right -->
 					
@@ -99,59 +101,18 @@
 </div>
 <!-- END BLOG POST SECTION -->
 <script type="text/javascript">
-	var progressbar = $( "#progressbar" ),
-      totalDonors,
-      progressAmount = "",
-      donorGoal = 3000,
-      percentageToGoal = 0;
+	var allBarsShown = true;
+	twoThousandToTwentyTwelve(allBarsShown);
 
-      //set the totalDonors for all class years, then use that and the goal to get the percentage.
-      totalDonors = 1800;
-      percentageToGoal = (100 * (totalDonors / donorGoal));
-
-      //update the progress bar with our calculated percentage
-      $("#decade1").progressbar({
-      	value: 10,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade2").progressbar({
-      	value: 20,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade3").progressbar({
-      	value: 30,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade4").progressbar({
-      	value: 40,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade5").progressbar({
-      	value: percentageToGoal,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade6").progressbar({
-      	value: 60,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade7").progressbar({
-      	value: 70,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade8").progressbar({
-      	value: 80,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade9").progressbar({
-      	value: 90,
-      });
-       //update the progress bar with our calculated percentage
-      $("#decade10").progressbar({
-      	value: percentageToGoal,
-      });
-
-      //Set the number of current donors / the goal of 3000. This will replace the value above the progress bar so that it is up to date.
-      progressAmount = totalDonors + " / " + donorGoal;
+     	//Update the decades when links are set
+     	$("#TwoThousandToTwentyTwelve").click(function (allBarsShown) {
+	      twoThousandToTwentyTwelve(allBarsShown);
+	      allBarsShown = true;
+    	});
+      $("#NineteenThirtyFourToNineteenThirtyNine").click(function () {
+	      NineteenThirtyFourToNineteenThirtyNine();
+	      allBarsShown = false;
+    	});
 
 </script>
 <script type="text/javascript">
