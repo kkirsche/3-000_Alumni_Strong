@@ -74,18 +74,19 @@
 					</div><!-- end div #home_decades_desc_left -->
 					<div id="home_decades_desc_right">
 						<div id="decadeProgressContainer">
-							<div id="decade1" class="progressBarSpacingTop"></div>
-							<div id="decade2" class="progressBarSpacing"></div>
-							<div id="decade3" class="progressBarSpacing"></div>
-							<div id="decade4" class="progressBarSpacing"></div>
-							<div id="decade5" class="progressBarSpacing"></div>
-							<div id="decade6" class="progressBarSpacing"></div>
-							<div id="decade7" class="progressBarSpacing"></div>
-							<div id="decade8" class="progressBarSpacing"></div>
-							<div id="decade9" class="progressBarSpacing"></div>
-							<div id="decade10" class="progressBarSpacing"></div>
-							<div id="decade11" class="progressBarSpacing"></div>
-							<div id="decade12" class="progressBarSpacing"></div>
+							<span class="titleFontNoBorder" id="decade1label">2000</span><div id="decade1" class="progressBarSpacingTop"></div> <span id="decade1AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade2label">2001</span> <div id="decade2" class="progressBarSpacing"></div><span id="decade2AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade3label">2002</span> <div id="decade3" class="progressBarSpacing"></div><span id="decade3AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade4label">2003</span> <div id="decade4" class="progressBarSpacing"></div><span id="decade4AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade5label">2004 </span> <div id="decade5" class="progressBarSpacing"></div><span id="decade5AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade6label">2005</span> <div id="decade6" class="progressBarSpacing"></div><span id="decade6AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade7label">2006</span> <div id="decade7" class="progressBarSpacing"></div><span id="decade7AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade8label">2007</span> <div id="decade8" class="progressBarSpacing"></div><span id="decade8AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade9label">2008</span> <div id="decade9" class="progressBarSpacing"></div><span id="decade9AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade10label">2009</span> <div id="decade10" class="progressBarSpacing"></div><span id="decade10AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade11label">2010</span> <div id="decade11" class="progressBarSpacing"></div><span id="decade11AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade12label">2011</span> <div id="decade12" class="progressBarSpacing"></div><span id="decade12AmountGiven">$130,000</span><br />
+							<span class="titleFontNoBorder" id="decade13label">2012</span><div id="decade13" class="progressBarSpacing"></div><span id="decade13AmountGiven">$130,000</span>
 						</div><!--end div #decadeProgressContainer-->
 					</div><!-- end div #home_decades_desc_right -->
 					
@@ -114,28 +115,30 @@
 	decade9Donors = 0, decade9TotalDonors = 1,
 	decade10Donors = 0, decade10TotalDonors = 1,
 	decade11Donors = 0, decade11TotalDonors = 1,
-	decade12Donors = 0, decade12TotalDonors = 1;
+	decade12Donors = 0, decade12TotalDonors = 1,
+	decade13Donors = 0, decade13TotalDonors = 1;
 
 	//initilize our bars
-	initilizeBars2000to2012(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12Donors, decade12TotalDonors);
+	initilizeBars2000to2012(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12Donors, decade12TotalDonors, decade13Donors, decade13TotalDonors);
 
      	//Update the decades when links are set
      	$("#TwoThousandToTwentyTwelve").click(function () {
      		//set values
      		decade1Donors = 1, decade1TotalDonors = 3,
-		decade2Donors = 4, decade2TotalDonors = 4,
-		decade3Donors = 4, decade3TotalDonors = 1,
-		decade4Donors = 4, decade4TotalDonors = 7,
-		decade5Donors = 4, decade5TotalDonors = 5,
-		decade6Donors = 0, decade6TotalDonors = 4,
+		decade2Donors = 0, decade2TotalDonors = 1,
+		decade3Donors = 0, decade3TotalDonors = 1,
+		decade4Donors = 0, decade4TotalDonors = 1,
+		decade5Donors = 0, decade5TotalDonors = 1,
+		decade6Donors = 0, decade6TotalDonors = 1,
 		decade7Donors = 0, decade7TotalDonors = 1,
 		decade8Donors = 0, decade8TotalDonors = 1,
 		decade9Donors = 0, decade9TotalDonors = 1,
 		decade10Donors = 0, decade10TotalDonors = 1,
 		decade11Donors = 0, decade11TotalDonors = 1,
-		decade12Donors = 0, decade12TotalDonors = 1;
+		decade12Donors = 0, decade12TotalDonors = 1,
+		decade13Donors = 0, decade13TotalDonors = 1;
      		//update bars
-	      updateBars12Years(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12Donors, decade12TotalDonors);
+	      updateBars12Years(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12Donors, decade12TotalDonors, decade13Donors, decade13TotalDonors);
     	});
     	$("#NineteenNinetyToNineteenNinetyNine").click(function () {
     		//set values

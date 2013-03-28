@@ -1491,10 +1491,14 @@ div.home_blog_post_txt.full_width a {
 	font-family: 'BazarMedium';
   }
  .progressBarSpacingTop {
+ 	display: inline-block;
  	margin-top: 10px;
+ 	width: 70%;
  }
 .progressBarSpacing {
+	display: inline-block;
 	margin-top: 31px;
+	width: 70%;
 }
 #decadeProgressContainer {
 	padding-left: 15px;

@@ -24,17 +24,27 @@ function showHiddenBars() {
 	$('#decade10').show("clip");
 	$('#decade11').show("clip");
 	$('#decade12').show("clip");
+	$('#decade13').show("clip");
+	$('#decade10label').show("clip");
+	$('#decade11label').show("clip");
+	$('#decade12label').show("clip");
+	$('#decade13label').show("clip");
 }
 function hideHiddenBars() {
 	//hide the bars we aren't using.
 	$('#decade10').hide("clip");
 	$('#decade11').hide("clip");
 	$('#decade12').hide("clip");
+	$('#decade13').hide("clip");
+	$('#decade10label').hide("clip");
+	$('#decade11label').hide("clip");
+	$('#decade12label').hide("clip");
+	$('#decade13label').hide("clip");
 }
 
-function initilizeBars2000to2012(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12donors, decade12TotalDonors) {
+function initilizeBars2000to2012(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12donors, decade12TotalDonors, decade13donors, decade13TotalDonors) {
 
-      var decade1Percentage = 0, decade2Percentage = 0, decade3Percentage = 0, decade4Percentage = 0, decade5Percentage = 0, decade6Percentage = 0, decade7Percentage = 0, decade8Percentage = 0, decade9Percentage = 0, decade10Percentage = 0, decade11Percentage = 0, decade12Percentage = 0;
+      var decade1Percentage = 0, decade2Percentage = 0, decade3Percentage = 0, decade4Percentage = 0, decade5Percentage = 0, decade6Percentage = 0, decade7Percentage = 0, decade8Percentage = 0, decade9Percentage = 0, decade10Percentage = 0, decade11Percentage = 0, decade12Percentage = 0, decade13Percentage = 0;
 
 	decade1Percentage = calculatePercentage(decade1Donors, decade1TotalDonors);
 	decade2Percentage = calculatePercentage(decade2Donors, decade2TotalDonors);
@@ -45,6 +55,10 @@ function initilizeBars2000to2012(decade1Donors, decade1TotalDonors, decade2Donor
 	decade7Percentage = calculatePercentage(decade7Donors, decade7TotalDonors);
 	decade8Percentage = calculatePercentage(decade8Donors, decade8TotalDonors);
 	decade9Percentage = calculatePercentage(decade9Donors, decade9TotalDonors);
+	decade10Percentage = calculatePercentage(decade9Donors, decade9TotalDonors);
+	decade11Percentage = calculatePercentage(decade9Donors, decade9TotalDonors);
+	decade12Percentage = calculatePercentage(decade9Donors, decade9TotalDonors);
+	decade13Percentage = calculatePercentage(decade9Donors, decade9TotalDonors);
 
       //update the progress bar with our calculated percentage
       $("#decade1").progressbar({
@@ -94,10 +108,14 @@ function initilizeBars2000to2012(decade1Donors, decade1TotalDonors, decade2Donor
       $("#decade12").progressbar({
       	value: decade12Percentage
       });
+      //update the progress bar with our calculated percentage
+      $("#decade13").progressbar({
+      	value: decade13Percentage
+      });
 }
 //Updates the 2010-Present Progress bars, hides the ones that aren't used.
-function updateBars12Years(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12donors, decade12TotalDonors) {
-	var decade1Percentage = 0, decade2Percentage = 0, decade3Percentage = 0, decade4Percentage = 0, decade5Percentage = 0, decade6Percentage = 0, decade7Percentage = 0, decade8Percentage = 0, decade9Percentage = 0, decade10Percentage = 0, decade11Percentage = 0, decade12Percentage = 0;
+function updateBars12Years(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12donors, decade12TotalDonors, decade13donors, decade13TotalDonors) {
+	var decade1Percentage = 0, decade2Percentage = 0, decade3Percentage = 0, decade4Percentage = 0, decade5Percentage = 0, decade6Percentage = 0, decade7Percentage = 0, decade8Percentage = 0, decade9Percentage = 0, decade10Percentage = 0, decade11Percentage = 0, decade12Percentage = 0, decade13Percentage = 0;
 
 	//Calculate the percentages
 	decade1Percentage = calculatePercentage(decade1Donors, decade1TotalDonors);
@@ -112,6 +130,7 @@ function updateBars12Years(decade1Donors, decade1TotalDonors, decade2Donors, dec
 	decade10Percentage = calculatePercentage(decade10Donors, decade10TotalDonors);
 	decade11Percentage = calculatePercentage(decade11Donors, decade11TotalDonors);
 	decade12Percentage = calculatePercentage(decade12Donors, decade12TotalDonors);
+	decade13Percentage = calculatePercentage(decade13Donors, decade13TotalDonors);
 
 	//Hide bars we aren't using
 	showHiddenBars();
@@ -129,6 +148,7 @@ function updateBars12Years(decade1Donors, decade1TotalDonors, decade2Donors, dec
 	$('#decade10').progressbar("value", decade10Percentage);
 	$('#decade11').progressbar("value", decade11Percentage);
 	$('#decade12').progressbar("value", decade12Percentage);
+	$('#decade13').progressbar("value", decade12Percentage);
 }
 
 //Updates the 2010-Present Progress bars, hides the ones that aren't used.
