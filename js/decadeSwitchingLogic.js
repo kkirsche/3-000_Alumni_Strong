@@ -23,34 +23,34 @@ function calculatePercentage(numberOfDonors, TotalNumberOfAlumni) {
 function showHiddenBars() {
     "use strict";
     //show the bars we aren't using.
-    $('#decade10').show("clip");
-    $('#decade11').show("clip");
-    $('#decade12').show("clip");
-    $('#decade13').show("clip");
-    $('#decade10label').show("clip");
-    $('#decade11label').show("clip");
-    $('#decade12label').show("clip");
-    $('#decade13label').show("clip");
-    $('#decade10AmountGiven').show("clip");
-    $('#decade11AmountGiven').show("clip");
-    $('#decade12AmountGiven').show("clip");
-    $('#decade13AmountGiven').show("clip");
+    $('#decade10').css("display", "inline-block");
+    $('#decade11').css("display", "inline-block");
+    $('#decade12').css("display", "inline-block");
+    $('#decade13').css("display", "inline-block");
+    $('#decade10label').css("display", "inline");
+    $('#decade11label').css("display", "inline");
+    $('#decade12label').css("display", "inline");
+    $('#decade13label').css("display", "inline");
+    $('#decade10AmountGiven').css("display", "inline");
+    $('#decade11AmountGiven').css("display", "inline");
+    $('#decade12AmountGiven').css("display", "inline");
+    $('#decade13AmountGiven').css("display", "inline");
 }
 function hideHiddenBars() {
     "use strict";
     //hide the bars we aren't using.
-    $('#decade10').hide("clip");
-    $('#decade11').hide("clip");
-    $('#decade12').hide("clip");
-    $('#decade13').hide("clip");
-    $('#decade10label').hide("clip");
-    $('#decade11label').hide("clip");
-    $('#decade12label').hide("clip");
-    $('#decade13label').hide("clip");
-    $('#decade10AmountGiven').hide("clip");
-    $('#decade11AmountGiven').hide("clip");
-    $('#decade12AmountGiven').hide("clip");
-    $('#decade13AmountGiven').hide("clip");
+    $('#decade10').css("display", "none");
+    $('#decade11').css("display", "none");
+    $('#decade12').css("display", "none");
+    $('#decade13').css("display", "none");
+    $('#decade10label').css("display", "none");
+    $('#decade11label').css("display", "none");
+    $('#decade12label').css("display", "none");
+    $('#decade13label').css("display", "none");
+    $('#decade10AmountGiven').css("display", "none");
+    $('#decade11AmountGiven').css("display", "none");
+    $('#decade12AmountGiven').css("display", "none");
+    $('#decade13AmountGiven').css("display", "none");
 }
 
 function initilizeBars2000to2012(decade1Donors, decade1TotalDonors, decade2Donors, decade2TotalDonors, decade3Donors, decade3TotalDonors, decade4Donors, decade4TotalDonors, decade5Donors, decade5TotalDonors, decade6Donors, decade6TotalDonors, decade7Donors, decade7TotalDonors, decade8Donors, decade8TotalDonors, decade9Donors, decade9TotalDonors, decade10Donors, decade10TotalDonors, decade11Donors, decade11TotalDonors, decade12donors, decade12TotalDonors, decade13donors, decade13TotalDonors) {
