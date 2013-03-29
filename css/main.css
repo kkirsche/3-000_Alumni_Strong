@@ -7,6 +7,9 @@
 body {
     background-color: #e5c89e;
 }
+h3 {
+    color: #C22D3E;
+}
 footer {
     border-top: 10px solid #d6d6d6;
     margin-top: 20px;
@@ -15,15 +18,38 @@ footer {
 img {
     max-width: 100%;
 }
+hr {
+    border: 0;
+    height: 1px;
+    background: #b0956d;
+    background-image: -webkit-linear-gradient(left, #ccc, #b0956d, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #b0956d, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #b0956d, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #b0956d, #ccc); 
+}
 /* ==========================================================================
    Header
    ========================================================================== */
 .header-container {
     border-bottom: 20px solid #d6d6d6;
     background: #660000;
+    height: 10.2em;
 }
 .title {
     color: white;
+}
+#topNav {
+    margin-top: 0.6em;
+}
+#topNav a {
+    color: #fff;
+    font-size: .45em;
+    font-weight: normal;
+    display: inline-block;
+}
+#topNav li+li a{
+    border-left: 1px solid #fff;
+    padding-left: 1em; 
 }
 /* ==========================================================================
    Body
@@ -31,23 +57,11 @@ img {
 .topMargin20px {
       margin-top: 20px;
 }
+.topMargin40px {
+      margin-top: 90px;
+}
 .centerText {
       text-align: center;
-}
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 .addBorderAroundObject {
     border: 1px solid #7b641b;
