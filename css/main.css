@@ -1,0 +1,85 @@
+/* ==========================================================================
+   H-SC 3,000 Strong Campaign Site
+   ========================================================================== */
+/* ==========================================================================
+   Global
+   ========================================================================== */
+body {
+    background-color: #fff;
+}
+footer {
+    border-top: 10px solid #d6d6d6;
+    margin-top: 20px;
+    background: #660000;
+}
+img {
+    max-width: 100%;
+}
+/* ==========================================================================
+   Header
+   ========================================================================== */
+.header-container {
+    border-bottom: 20px solid #d6d6d6;
+    background: #660000;
+}
+.title {
+    color: white;
+}
+/* ==========================================================================
+   Body
+   ========================================================================== */
+.topMargin20px {
+      margin-top: 20px;
+}
+.centerText {
+      text-align: center;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.addBorderAroundObject {
+    border: 1px solid #d9d4c2;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+   footer p {
+    padding-top: 5px;
+    color: #ffffff;
+   }
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 767px) {
+/*Remove extranious padding so our header extends across*/
+body {
+    padding: 0;
+}
+/*But we want the content to not touch the edges*/
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.addBorderAroundObject {
+    border: 1px solid #d9d4c2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
