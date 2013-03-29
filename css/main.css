@@ -5,7 +5,7 @@
    Global
    ========================================================================== */
 body {
-    background-color: #fff;
+    background-color: #e5c89e;
 }
 footer {
     border-top: 10px solid #d6d6d6;
@@ -50,9 +50,41 @@ img {
     height: 100%;
 }
 .addBorderAroundObject {
-    border: 1px solid #d9d4c2;
+    border: 1px solid #7b641b;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
+}
+.addBorderAroundObject h3.header {
+    margin: -15px -15px 15px -15px;
+    padding: 15px 15px 10px;
+    background: #bc0000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #bc0000 0%, #8f0222 44%, #660000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc0000), color-stop(44%,#8f0222), color-stop(100%,#660000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #bc0000 0%,#8f0222 44%,#660000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0000', endColorstr='#660000',GradientType=0 ); /* IE6-9 */
+    color: white;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.addBorderAroundObject h4.header {
+    margin: -15px -15px 15px -15px;
+    padding: 15px 15px 10px;
+    background: #bc0000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #bc0000 0%, #8f0222 44%, #660000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc0000), color-stop(44%,#8f0222), color-stop(100%,#660000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #bc0000 0%,#8f0222 44%,#660000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0000', endColorstr='#660000',GradientType=0 ); /* IE6-9 */
+    color: white;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
 }
 /* ==========================================================================
    Footer
