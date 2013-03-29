@@ -57,8 +57,12 @@ hr {
 .topMargin20px {
       margin-top: 20px;
 }
-.topMargin40px {
+.topMargin90px {
       margin-top: 90px;
+}
+#socialSharing {
+    float: right;
+    margin-left: 50px;
 }
 .centerText {
       text-align: center;
