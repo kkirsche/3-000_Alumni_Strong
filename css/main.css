@@ -140,3 +140,12 @@ body {
     margin-bottom: 10px;
 }
 }
+@media (max-width: 480px) {
+#topNav a {
+    color: #660000;
+    font-size: .45em;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+}
+}
