@@ -1,15 +1,58 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
+# the humans responsible & colophon
 
-# TEAM
 
-    <name> -- <role> -- <twitter>
+  # TEAM
+  Graphic Designer: Kevin Kirsche
+  Site: http://razerdesign.com
+  Twitter: http://twitter.com/kkirsche
+  Location: Hampden-Sydney, VA
 
-# THANKS
+  # Thanks
+  Web Master: Cheryle Dixon
 
-    <name>
+  # SITE
+  Standards: HTML5, CSS3, PHP5
+  Components: Modernizr, jQuery
+  Software: Sublime Text 2
 
-# TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+                        .s$$$Ss.
+            .8,         $$$. _. .              ..sS$$$$$"  ...,.;
+ o.   ,@..  88        =.$"$'  '          ..sS$$$$$$$$$$$$s. _;"'
+  @@@.@@@. .88.   `  ` ""l. .sS$$.._.sS$$$$$$$$$$$$S'"'
+   .@@@q@@.8888o.         .s$$$$$$$$$$$$$$$$$$$$$'
+     .:`@@@@33333.       .>$$$$$$$$$$$$$$$$$$$$'
+     .: `@@@@333'       ..>$$$$$$$$$$$$$$$$$$$'
+      :  `@@333.     `.,   s$$$$$$$$$$$$$$$$$'
+      :   `@33       $$ S.s$$$$$$$$$$$$$$$$$'
+      .S   `Y      ..`  ,"$' `$$$$$$$$$$$$$$
+      $s  .       ..S$s,    . .`$$$$$$$$$$$$.
+      $s .,      ,s ,$$$$,,sS$s.$$$$$$$$$$$$$.
+      / /$$SsS.s. ..s$$$$$$$$$$$$$$$$$$$$$$$$$.
+     /`.`$$$$$dN.ssS$$'`$$$$$$$$$$$$$$$$$$$$$$$.
+    ///   `$$$$$$$$$'    `$$$$$$$$$$$$$$$$$$$$$$.
+   ///|     `S$$S$'       `$$$$$$$$$$$$$$$$$$$$$$.
+  / /                      $$$$$$$$$$$$$$$$$$$$$.
+                           `$$$$$$$$$$$$$$$$$$$$$s.
+                            $$$"'        .?T$$$$$$$
+                           .$'        ...      ?$$#\
+                           !       -=S$$$$$s
+                         .!       -=s$$'  `$=-_      :
+                        ,        .$$$'     `$,       .|
+                       ,       .$$$'          .        ,
+                      ,     ..$$$'
+                          .s$$$'                 `s     .
+                   .   .s$$$$'                    $s. ..$s
+                  .  .s$$$$'                      `$s=s$$$
+                    .$$$$'                         ,    $$s
+               `   " .$$'                               $$$
+               ,   s$$'                              .  $$$s
+            ` .s..s$'                                .s ,$$
+             .s$$$'                                   "s$$$,
+          -   $$$'                                     .$$$$.
+        ."  .s$$s                                     .$',',$.
+        $s.s$$$$S..............   ................    $$....s$s......
+         `""'           `     ```"""""""""""""""         `""   ``
+
+         Bring it -R4z3r
