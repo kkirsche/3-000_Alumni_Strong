@@ -60,13 +60,6 @@ hr {
 .topMargin90px {
       margin-top: 90px;
 }
-#socialSharing {
-    float: right;
-    margin-left: 50px;
-}
-.centerText {
-      text-align: center;
-}
 .addBorderAroundObject {
     border: 1px solid #7b641b;
     border-radius: 5px;
