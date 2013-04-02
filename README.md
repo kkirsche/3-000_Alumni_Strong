@@ -4,7 +4,7 @@
 ## Created using HTML5 and jQuery 1.9.1 (Initializr)
 
 #### Version 1.01
-![version 1.0 - 3,000 Alumni Strong](http://i.imgur.com/9TbZsFF.jpg "3,000 Alumni Strong")
+![version 1.01 - 3,000 Alumni Strong](http://i.imgur.com/JcG4qBI.jpg "3,000 Alumni Strong")
 [version 1.0 - 3,000 Alumni Strong](http://i.imgur.com/ldtkprf.jpg "3,000 Alumni Strong")<br />
 [version 0.5 - 3,000 Alumni Strong](http://i.imgur.com/ycPNk67.jpg "3,000 Alumni Strong")<br />
 [version 0.4 - 3,000 Alumni Strong](http://i.imgur.com/0FnBthK.jpg "3,000 Alumni Strong")<br />
@@ -25,3 +25,5 @@ Changes Made:
 * Red headers now handled via CSS classes instead of for all headers
 * Carousel javascript updated
 * Donor Number can be updated automatically via javascript
+* Modest YouTube Branding
+* Show video information off by default (video title, etc. at the top on load).
