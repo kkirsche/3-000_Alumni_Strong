@@ -7,9 +7,6 @@
 body {
     background-color: #e5c89e;
 }
-h3 {
-    color: #C22D3E;
-}
 footer {
     border-top: 10px solid #d6d6d6;
     margin-top: 20px;
@@ -96,6 +93,9 @@ hr {
     -moz-border-radius: 5px 5px 0px 0px;
     -webkit-border-radius: 5px 5px 0px 0px;
     border-radius: 5px 5px 0px 0px;
+}
+.redText {
+    color: #C22D3E;
 }
 /*Make the video responsive*/
 .videoWrapper {
