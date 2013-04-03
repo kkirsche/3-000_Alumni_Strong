@@ -14,19 +14,16 @@
 
 ## Changelog
 
-### Version 1.01
+### Version 1.02
 
 Files changed:
 * index.html
 * css/main.css
 
 Changes Made:
-* Text changes in index.html
-* Red headers now handled via CSS classes instead of for all headers
-* Carousel javascript updated
-* Donor Number can be updated automatically via javascript
-* Modest YouTube Branding
-* Show video information off by default (video title, etc. at the top on load).
+* Major rewrite of the top menu bar to work with mobile (custom to bootstrap's navbar)
+* Restructuring of code on the page to better scale to mobile devices
+* Updated media queries to reflect changes to mobile devices.
 
 <hr />
 
