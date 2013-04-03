@@ -27,3 +27,19 @@ Changes Made:
 * Donor Number can be updated automatically via javascript
 * Modest YouTube Branding
 * Show video information off by default (video title, etc. at the top on load).
+
+<hr />
+
+### Version 1.01
+
+Files changed:
+* index.html
+* css/main.css
+
+Changes Made:
+* Text changes in index.html
+* Red headers now handled via CSS classes instead of for all headers
+* Carousel javascript updated
+* Donor Number can be updated automatically via javascript
+* Modest YouTube Branding
+* Show video information off by default (video title, etc. at the top on load).
