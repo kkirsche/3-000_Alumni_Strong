@@ -40,6 +40,7 @@ hr {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660000', endColorstr='#660000',GradientType=0 ); /* IE6-8 */
     border-bottom: 20px solid #d6d6d6;
     height: 10.2em;
+    overflow: visible !important;
     width: 100%;
 }
 .navbar-static-top {
@@ -55,6 +56,7 @@ hr {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660000', endColorstr='#660000',GradientType=0 ); /* IE6-8 */
     border-bottom: 20px solid #d6d6d6;
     height: 10.2em;
+    overflow: visible !important;
     width: 100%; 
 }
 .navbar-inner {
@@ -69,6 +71,7 @@ hr {
     background: linear-gradient(to bottom,  #660000 0%,#660000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660000', endColorstr='#660000',GradientType=0 ); /* IE6-8 */
     border-bottom: 20px solid #d6d6d6;
+    overflow: visible !important;
     height: 10.2em;
 }
 .navbar .nav>li>a {
@@ -77,13 +80,15 @@ hr {
     color: #fff;
     text-decoration: none;
     text-shadow: 0 1px 0 #4D0000;
+    overflow: visible !important;
 }
 .navbar .nav>li {
     margin-top: 3em;
+    overflow: visible !important;
 }
 .navbar .nav>li>a:hover {
-color: #fff;
-text-decoration: underline;
+    color: #fff;
+    text-decoration: underline;
 }
 .navbar .btn-navbar {
     color: #fff;
@@ -97,9 +102,13 @@ text-decoration: underline;
     background: linear-gradient(to bottom,  #660000 0%,#4d0000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660000', endColorstr='#4d0000',GradientType=0 ); /* IE6-9 */
 
--webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
--moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
+}
+.brand {
+    position: relative;
+    overflow: visible !important;
 }
 /* ==========================================================================
    Body
@@ -144,6 +153,9 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
+    .navbar {
+        margin-bottom: 3em;
+    }
     .nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
         font-weight: normal;
     }
@@ -159,6 +171,10 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
     }
     .topMargin90px {
         margin-top: 30px;
+    }
+
+    .navbar {
+        margin-bottom: 5em;
     }
 }
 
@@ -195,6 +211,10 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
         background-color: #660000;
         border-bottom: 20px solid #d6d6d6;
     }
+
+    .navbar {
+        margin-bottom: 5em;
+    }
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 620px) {
@@ -213,11 +233,17 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
     .topMargin90px {
         margin-top: 0px;
     }
+    .navbar {
+        margin-bottom: 5em;
+    }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
         margin: 0;
+    }
+    .navbar {
+        margin-bottom: 8em;
     }
 }
