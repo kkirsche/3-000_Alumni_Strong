@@ -27,26 +27,46 @@ hr {
 /* ==========================================================================
    Header
    ========================================================================== */
-.header-container {
+.navbar {
+    border-bottom: 20px solid #d6d6d6;
+    background: #660000;
+    height: 10.2em;
+    width: 100%;
+}
+.navbar-inner {
     border-bottom: 20px solid #d6d6d6;
     background: #660000;
     height: 10.2em;
 }
-.title {
-    color: white;
+.navbar .nav>li>a {
+float: none;
+padding: 10px 15px 10px;
+color: #fff;
+text-decoration: none;
+text-shadow: 0 1px 0 #4D0000;
 }
-#topNav {
-    margin-top: 0.6em;
+.navbar .nav>li {
+    margin-top: 3em;
 }
-#topNav a {
+.navbar .nav>li>a:hover {
+color: #fff;
+text-decoration: underline;
+}
+.navbar .btn-navbar {
     color: #fff;
-    font-size: .45em;
-    font-weight: normal;
-    display: inline-block;
-}
-#topNav li+li a{
-    border-left: 1px solid #fff;
-    padding-left: 1em;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background: #660000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #660000 0%, #4d0000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#660000), color-stop(100%,#4d0000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #660000 0%,#4d0000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #660000 0%,#4d0000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #660000 0%,#4d0000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #660000 0%,#4d0000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660000', endColorstr='#4d0000',GradientType=0 ); /* IE6-9 */
+
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
 }
 /* ==========================================================================
    Body
@@ -56,43 +76,6 @@ hr {
 }
 .topMargin90px {
       margin-top: 90px;
-}
-.addBorderAroundObject {
-    border: 1px solid #7b641b;
-    border-radius: 5px;
-    padding: 15px;
-}
-.addBorderAroundObject h3.header {
-    margin: -15px -15px 15px -15px;
-    padding: 15px 15px 10px;
-    background: #bc0000; /* Old browsers */
-    background: -moz-linear-gradient(top,  #bc0000 0%, #8f0222 44%, #660000 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc0000), color-stop(44%,#8f0222), color-stop(100%,#660000)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #bc0000 0%,#8f0222 44%,#660000 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0000', endColorstr='#660000',GradientType=0 ); /* IE6-9 */
-    color: white;
-    -moz-border-radius: 5px 5px 0px 0px;
-    -webkit-border-radius: 5px 5px 0px 0px;
-    border-radius: 5px 5px 0px 0px;
-}
-.addBorderAroundObject h4.header {
-    margin: -15px -15px 15px -15px;
-    padding: 15px 15px 10px;
-    background: #bc0000; /* Old browsers */
-    background: -moz-linear-gradient(top,  #bc0000 0%, #8f0222 44%, #660000 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bc0000), color-stop(44%,#8f0222), color-stop(100%,#660000)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #bc0000 0%,#8f0222 44%,#660000 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #bc0000 0%,#8f0222 44%,#660000 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0000', endColorstr='#660000',GradientType=0 ); /* IE6-9 */
-    color: white;
-    -moz-border-radius: 5px 5px 0px 0px;
-    -webkit-border-radius: 5px 5px 0px 0px;
-    border-radius: 5px 5px 0px 0px;
 }
 .redText {
     color: #C22D3E;
@@ -128,7 +111,22 @@ hr {
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-
+    .nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+        font-weight: normal;
+    }
+    .nav-collapse .nav > li > a:hover,
+    .nav-collapse .nav > li > a:focus,
+    .nav-collapse .dropdown-menu a:hover,
+    .nav-collapse .dropdown-menu a:focus {
+        background-color: #4d0000;
+    }
+    .collapse.in {
+        background-color: #660000;
+        border-bottom: 20px solid #d6d6d6;
+    }
+    .topMargin90px {
+        margin-top: 30px;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -137,6 +135,15 @@ hr {
     body {
         padding: 0;
     }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin: 0;
+    }
+    .nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+        font-weight: normal;
+    }
+    .nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a:hover {
+        font-weight: normal;
+    }
     /*But we want the content to not touch the edges*/
     .container {
         padding-left: 20px;
@@ -144,6 +151,16 @@ hr {
     }
     .topMargin90px {
         margin-top: 30px;
+    }
+    .nav-collapse .nav > li > a:hover,
+    .nav-collapse .nav > li > a:focus,
+    .nav-collapse .dropdown-menu a:hover,
+    .nav-collapse .dropdown-menu a:focus {
+        background-color: #4d0000;
+    }
+    .collapse.in {
+        background-color: #660000;
+        border-bottom: 20px solid #d6d6d6;
     }
 }
 /* Landscape phone to portrait tablet */
@@ -157,12 +174,8 @@ hr {
         padding-left: 20px;
         padding-right: 20px;
     }
-    #topNav a {
-        color: #660000;
-        font-size: .45em;
-        font-weight: normal;
-        display: inline-block;
-        text-align: center;
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin: 0;
     }
     .topMargin90px {
         margin-top: 0px;
@@ -171,14 +184,7 @@ hr {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    #topNav a {
-        color: #660000;
-        font-size: .45em;
-        font-weight: normal;
-        display: inline-block;
-        text-align: center;
-    }
-    .topMargin90px {
-        margin-top: 0px;
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin: 0;
     }
 }
