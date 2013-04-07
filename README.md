@@ -3,6 +3,8 @@
 
 ## Created using HTML5 and jQuery 1.9.1 (Initializr)
 
+###[Demo](http://kkirsche.github.io/3-000_Alumni_Strong/)
+
 #### Version 1.01
 ![version 1.01 - 3,000 Alumni Strong](http://i.imgur.com/JcG4qBI.jpg "3,000 Alumni Strong")
 [version 1.0 - 3,000 Alumni Strong](http://i.imgur.com/ldtkprf.jpg "3,000 Alumni Strong")<br />
