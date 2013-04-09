@@ -7,7 +7,7 @@
 
 #### Version 1.3.0
 ![version 1.3.0 - 3,000 Alumni Strong](http://i.imgur.com/z0hHNpY.jpg "3,000 Alumni Strong")
-[version 1.0.1 - 3,000 Alumni Strong](http://i.imgur.com/JcG4qBI.jpg "3,000 Alumni Strong")<br />
+[version 1.1.0 - 3,000 Alumni Strong](http://i.imgur.com/JcG4qBI.jpg "3,000 Alumni Strong")<br />
 [version 1.0.0 - 3,000 Alumni Strong](http://i.imgur.com/ldtkprf.jpg "3,000 Alumni Strong")<br />
 [version 0.5.0 - 3,000 Alumni Strong](http://i.imgur.com/ycPNk67.jpg "3,000 Alumni Strong")<br />
 [version 0.4.0 - 3,000 Alumni Strong](http://i.imgur.com/0FnBthK.jpg "3,000 Alumni Strong")<br />
