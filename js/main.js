@@ -21,8 +21,10 @@ $(document).ready(function () {
         }
           $(".videoWrapper").html(newVideoURL);
           $(".videoWrapper").fadeIn("fast");
+          return false;
     }
-    $("[name=nextVideo]").click(function() {
+    $("[name=nextVideo]").click(function(e) {
+        e.preventDefault();
         if (whichVideoIsNext > 3) {
             whichVideoIsNext = 1;
         } else if (whichVideoIsNext < 1) {
@@ -31,7 +33,8 @@ $(document).ready(function () {
         switchVideos(whichVideoIsNext);
         whichVideoIsNext++;
     });
-    $("[name=prevVideo]").click(function() {
+    $("[name=prevVideo]").click(function(e) {
+        e.preventDefault();
         whichVideoIsNext -= 2;
         if (whichVideoIsNext > 3) {
             whichVideoIsNext = 3;

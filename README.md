@@ -5,7 +5,7 @@
 
 ###[Demo — After First Mailer](http://kkirsche.github.io/3-000_Alumni_Strong/)
 
-#### Version 1.02
+#### Version 1.03
 ![version 1.01 - 3,000 Alumni Strong](http://i.imgur.com/JcG4qBI.jpg "3,000 Alumni Strong")
 [version 1.0 - 3,000 Alumni Strong](http://i.imgur.com/ldtkprf.jpg "3,000 Alumni Strong")<br />
 [version 0.5 - 3,000 Alumni Strong](http://i.imgur.com/ycPNk67.jpg "3,000 Alumni Strong")<br />
@@ -15,6 +15,19 @@
 [version 0.1 — 3,000 Alumni Strong](http://i.imgur.com/ctigLrQ.jpg "3,000 Alumni Strong")
 
 ## Changelog
+
+### Version 1.03
+#### Second Mailer
+
+Files changed:
+* index.html
+* js/main.js
+* classProgress.html (removed)
+
+Changes Made:
+* Add next / previous video functionality
+
+<hr />
 
 ### Version 1.02
 
@@ -30,6 +43,7 @@ Changes Made:
 <hr />
 
 ### Version 1.01
+#### First Mailer Release
 
 Files changed:
 * index.html
