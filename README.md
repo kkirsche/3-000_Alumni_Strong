@@ -17,7 +17,7 @@
 
 ## Versioning
 
-For transparency and insight into our release cycle, and for striving to maintain backward compatibility, Bootstrap will be maintained under the Semantic Versioning guidelines as much as possible.
+For transparency and insight into our release cycle, and for striving to maintain backward compatibility, 3,000 Alumni Strong will be maintained under the Semantic Versioning guidelines as much as possible.
 
 Releases will be numbered with the following format:
 
