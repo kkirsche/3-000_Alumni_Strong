@@ -81,6 +81,9 @@
                     <div class="videoWrapper">
                         <iframe width="521" height="293" src="http://www.youtube.com/embed/eYhsyjCU5-s?rel=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div><!--/div.videoWrapper-->
+                    <br />
+                    <a href="#" class="btn btn-info" id="prevVideo" name="prevVideo">&laquo; Prev Video</a>
+                    <a href="#" class="btn btn-info pull-right" id="nextVideo" name="nextVideo">Next Video &raquo;</a>
                 </div><!-- /div.span3.offset2-->
             </div><!-- /div.row.topMargin20px-->
             <hr />
@@ -167,7 +170,8 @@
         <script src="js/main.js"></script>
         <script>
             $('#imageCarousel').carousel({
-                interval: 4000
+                interval: 4000,
+                pause: "hover"
             });
         </script>
         <script>
