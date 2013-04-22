@@ -77,10 +77,13 @@
                     <p><a class="btn btn-success btn-large" href="https://secure.hsc.edu/gifts/" target="_blank">Make A Gift Today &raquo;</a></p>
                 </div><!--/div.span3-->
                 <div class="span5">
-                    <h4 class="redText">Dr. Pontuso supports 3,000 Strong Challenge</h4>
+                    <h4 class="redText" id="videoTitle">Dr. Pontuso supports 3,000 Strong Challenge</h4>
                     <div class="videoWrapper">
                         <iframe width="521" height="293" src="http://www.youtube.com/embed/eYhsyjCU5-s?rel=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div><!--/div.videoWrapper-->
+                    <br />
+                    <a href="#" class="btn btn-info" id="prevVideo" name="prevVideo">&laquo; Prev Video</a>
+                    <a href="#" class="btn btn-info pull-right" id="nextVideo" name="nextVideo">Next Video &raquo;</a>
                 </div><!-- /div.span3.offset2-->
             </div><!-- /div.row.topMargin20px-->
             <hr />
@@ -97,30 +100,30 @@
                             <!--Carousel Items-->
                             <div class="carousel-inner">
                                 <div class="active item">
-                                    <img src="img/carousel/mailer1/BillShearStudents.jpg" alt="Dr. Bill Shear receives NSF Grant" />
+                                    <img src="img/carousel/mailer2/lewisBell.jpg" alt="Your gift supports award winning students like Lewis." />
                                     <div class="carousel-caption">
-                                        <h4>Dr. Bill Shear receives NSF Grant</h4>
-                                        <p>Your gift enables our students to learn from an internationally known taxonomist.</p>
+                                        <!--<h4>Title</h4>-->
+                                        <p>Your gift supports award winning students like Lewis.</p>
                                         <br />
-                                        <a href="http://www.hsc.edu/News/News-Articles/Shear.html" class="btn btn-info" target="_blank">Read more about Dr. Shear's Story</a>
+                                        <a href="http://www.hsc.edu/News/News-Articles/Bell.html" class="btn btn-info" target="_blank">Read more about Lewis&rsquo; accomplishments.</a>
                                     </div><!-- /div.carousel-caption-->
                                 </div><!-- /div.active.item-->
                                 <div class="item">
-                                    <img src="img/carousel/mailer1/DrAlexWerth.jpg" alt="Dr. Alex Werth Publishes Research" />
+                                    <img src="img/carousel/mailer2/alexPrice.jpg" alt="Your gift supports exemplary scholar-athletes like Alex." />
                                     <div class="carousel-caption">
-                                        <h4>Dr. Alex Werth publishes research</h4>
-                                        <p>Your gift supports expert faculty who are committed to their students.</p>
+                                        <!--<h4>Title</h4>-->
+                                        <p>Your gift supports exemplary scholar-athletes like Alex.</p>
                                         <br />
-                                        <a href="http://www.hsc.edu/News/News-Articles/Werth.html" class="btn btn-info">Read more about Dr. Werth's Story</a>
+                                        <a href="http://www.hsc.edu/News/News-Articles/Price.html" class="btn btn-info">Read more about Alex&rsquo;s academic and football success.</a>
                                     </div><!-- /div.carousel-caption-->
                                 </div><!-- /div.item-->
                                 <div class="item">
-                                    <img src="img/carousel/mailer1/ethicsBowl.jpg" alt="Dr. Alex Werth Publishes Research" />
+                                    <img src="img/carousel/mailer2/sciencejournal.jpg" alt="Your gift supports in-depth undergraduate research." />
                                     <div class="carousel-caption">
-                                        <h4>H-SC wins second straight Ethics Bowl Championship</h4>
-                                        <p>Your gift supports our championship debate team.</p>
+                                        <!--<h4>Title</h4>-->
+                                        <p>Your gift supports in-depth undergraduate research.</p>
                                         <br />
-                                        <a href="http://www.hsc.edu/News/News-Articles/Ethics.html" class="btn btn-info" target="_blank">Read more about the Ethics Bowl team</a>
+                                        <a href="http://www.hsc.edu/News/News-Articles/Journal.html" class="btn btn-info" target="_blank">Read more about the Journal of the Sciences.</a>
                                     </div><!-- /div.carousel-caption-->
                                 </div><!-- /div.item-->
                             </div><!-- /div.carousel-inner-->
@@ -167,7 +170,8 @@
         <script src="js/main.js"></script>
         <script>
             $('#imageCarousel').carousel({
-                interval: 4000
+                interval: 4000,
+                pause: "hover"
             });
         </script>
         <script>
@@ -175,7 +179,7 @@
             $('#currentNumberOfDonors').text(currentDonors);
         </script>
         <script>
-            var _gaq=[['_setAccount','UA-39917786-1'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
