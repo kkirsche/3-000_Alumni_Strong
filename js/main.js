@@ -11,7 +11,7 @@ $(document).ready(function () {
                 newVideoURL = "<iframe width=\"521\" height=\"293\" src=\"http://www.youtube.com/embed/eYhsyjCU5-s?rel=0&amp;modestbranding=1&amp;showinfo=0\" frameborder=\"0\" allowfullscreen></iframe>";
                 break;
             case 2:
-                newVideoTitle = "Bingo Players live at Ultra Music Festival";
+                newVideoTitle = "Life on Campus: Spring Semester 2013";
                 newVideoURL = "<iframe width=\"521\" height=\"293\" src=\"http://www.youtube.com/embed/I1SxZDvVnFA?rel=0&amp;modestbranding=1&amp;showinfo=0\" frameborder=\"0\" allowfullscreen></iframe>";
                 break;
             default:
