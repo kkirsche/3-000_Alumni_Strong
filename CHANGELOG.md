@@ -4,16 +4,18 @@
 #### Second Mailer
 Files Changed:
 * index.html
-*/img/carousel/*
+* /img/carousel/*
 * js/main.js
+* README.md
 
 Changes made:
 * Updated carousel copy
 * Updated video carousel to load new title text
 * Updated carousel images
+* Updated README to include both versions
 
 Backwards Compatability Break:
-* Images in /img/carousel/ now classified by which mailer they were in.
+* Images in /img/carousel/ now grouped by which mailer they were in.
 
 ### Version 1.3.0
 
