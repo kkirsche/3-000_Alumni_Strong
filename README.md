@@ -3,10 +3,10 @@
 
 ## Created using HTML5 and jQuery 1.9.1 (Initializr)
 
-###[Demo — ver. 1.2.0](http://kkirsche.github.io/3-000_Alumni_Strong/)
+###[Demo — ver. 1.2.0 & ver. 2.0.0](http://kkirsche.github.io/3-000_Alumni_Strong/)
 
-#### Version 2.3.0
-![version 2.3.0 - 3,000 Alumni Strong](http://i.imgur.com/CIoDykC.jpg "3,000 Alumni Strong")
+#### Version 2.0.0
+![version 2.0.0 - 3,000 Alumni Strong](http://i.imgur.com/CIoDykC.jpg "3,000 Alumni Strong")
 [version 1.3.0 - 3,000 Alumni Strong](http://i.imgur.com/z0hHNpY.jpg "3,000 Alumni Strong")<br />
 [version 1.1.0 - 3,000 Alumni Strong](http://i.imgur.com/JcG4qBI.jpg "3,000 Alumni Strong")<br />
 [version 1.0.0 - 3,000 Alumni Strong](http://i.imgur.com/ldtkprf.jpg "3,000 Alumni Strong")<br />
