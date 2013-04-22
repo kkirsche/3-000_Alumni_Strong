@@ -3,7 +3,7 @@
 
 ## Created using HTML5 and jQuery 1.9.1 (Initializr)
 
-###[Demo — After First Mailer](http://kkirsche.github.io/3-000_Alumni_Strong/)
+###[Demo — Version 1.02 & Version 2.3.0](http://kkirsche.github.io/3-000_Alumni_Strong/)
 
 #### Version 1.02
 ![version 1.01 - 3,000 Alumni Strong](http://i.imgur.com/JcG4qBI.jpg "3,000 Alumni Strong")
