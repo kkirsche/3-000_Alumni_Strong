@@ -7,6 +7,7 @@ Files Changed:
 * /img/carousel/*
 * js/main.js
 * README.md
+* /img/AlumniDonorProgress-mailer2.png
 
 Changes made:
 * Updated carousel copy
