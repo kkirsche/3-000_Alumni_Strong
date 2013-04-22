@@ -12,7 +12,8 @@ Changes made:
 * Updated carousel copy
 * Updated video carousel to load new title text
 * Updated carousel images
-* Updated README to include both versions
+* Updated demo to include mailer 1 and mailer 2 versions
+* Updated Alumni Donors progress graph
 
 Backwards Compatability Break:
 * Images in /img/carousel/ now grouped by which mailer they were in.
