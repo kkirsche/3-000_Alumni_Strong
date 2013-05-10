@@ -1,5 +1,14 @@
 ## Changelog
 
+### Version 2.1.1
+Files Changed:
+* index.html
+* js/main.js
+
+Changes made:
+* Fix type ```&rsqup;``` with ```&rsquo;```
+* Fix typos in paragraph
+
 ### Version 2.1.0
 #### Third Video
 Files Changed:
