@@ -24,6 +24,12 @@ hr {
     background-image: -ms-linear-gradient(left, #ccc, #b0956d, #ccc);
     background-image: -o-linear-gradient(left, #ccc, #b0956d, #ccc);
 }
+a {
+    color: #C22D3E;
+}
+a:hover {
+    color: #C22D3E;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
