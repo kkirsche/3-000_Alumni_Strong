@@ -7,7 +7,7 @@ $(document).ready(function () {
         $(".videoWrapper").fadeOut("fast");
         switch (videoNumber) {
             case 1:
-                newVideoTitle = "General Sam&rsquo;s Story for the 3,000 Alumni Strong Challenge";
+                newVideoTitle = "General Sam Shares a Story";
                 newVideoURL = "<iframe width=\"521\" height=\"293\" src=\"http://www.youtube.com/embed/_gRmUAqaCwk?rel=0&amp;modestbranding=1&amp;showinfo=0\" frameborder=\"0\" allowfullscreen></iframe>";
                 break;
             case 2:
