@@ -1,5 +1,20 @@
 ## Changelog
 
+### Version 2.1.0
+#### Third Video
+Files Changed:
+* index.html
+* /img/3000StrongLogo300.png
+* js/main.js
+* README.md
+* /img/AlumniDonorProgress-mailer2.png
+
+Changes made:
+* Updated copy to the left of the video
+* Updated video carousel to load new title text
+* Updated demo to include mailer 3 versions
+* Updated Alumni Donors progress graph
+
 ### Version 2.0.0
 #### Second Mailer
 Files Changed:
