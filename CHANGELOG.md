@@ -1,5 +1,14 @@
 ## Changelog
 
+### Version 2.2.0
+Files Changed:
+* index.html
+* js/main.js
+
+Changes made:
+* Change text per Spencer's request
+* Add new video
+
 ### Version 2.1.1
 Files Changed:
 * index.html
